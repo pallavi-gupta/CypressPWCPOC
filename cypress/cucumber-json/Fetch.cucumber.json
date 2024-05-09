@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google Main Page",
+    "line": 1,
+    "id": "google-main-page",
+    "tags": [],
+    "uri": "Fetch.feature",
+    "elements": [
+      {
+        "id": "google-main-page;download-functionality",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Download Functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Application",
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Enter \"itadmin_gst_michelin_uat3\" and \"itadmin@123\" in username and password",
+            "result": {
+              "status": "passed",
+              "duration": 1264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 5142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User Selects the GSTR1 Option",
+            "result": {
+              "status": "passed",
+              "duration": 1326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Go to Fetch Page",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Apply filter on State and Financial Year",
+            "result": {
+              "status": "passed",
+              "duration": 4727000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify the DownloadedFile",
+            "result": {
+              "status": "passed",
+              "duration": 1367000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

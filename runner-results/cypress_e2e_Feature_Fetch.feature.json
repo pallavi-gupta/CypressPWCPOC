@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2024-05-09T08:05:39.427Z",
+  "duration": 17392,
+  "file": "cypress/e2e/Feature/Fetch.feature"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google Main Page",
+    "line": 1,
+    "id": "google-main-page",
+    "tags": [],
+    "uri": "Fetch2.feature",
+    "elements": [
+      {
+        "id": "google-main-page;abort-functionality",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Abort Functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Application",
+            "result": {
+              "status": "passed",
+              "duration": 27890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Enter \"itadmin_gst_michelin_uat3\" and \"itadmin@123\" in username and password",
+            "result": {
+              "status": "passed",
+              "duration": 989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Click on Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 5149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Selects the GSTR1 Option",
+            "result": {
+              "status": "passed",
+              "duration": 1292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Go to Fetch Page",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the Abort Functionality",
+            "result": {
+              "status": "passed",
+              "duration": 5409000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
